@@ -1,8 +1,8 @@
 # raw_can
-a can bus controller implied by cpu.<br>
-Now is run on a freescale(NXP) K60 chip, system clock is 96Mhz.<br>
-And the can bus can run at bitrate 20Kb.<br>
-Becareful most CAN transceiver have a low bitrate limite, such as 20Kb.<br>
+A software implemented can bus controller.<br>
+Now is run in a freescale(NXP) K60 chip, system clock is 96Mhz.<br>
+The can bus can run at bitrate 20Kb.<br>
+Becareful most CAN transceiver have a low bitrate limite, such as TJA1050 minimum rate 20Kb.<br>
 # use
 It can be used to understand the principle of the CAN bus. <br>
 It can be used in some applications that are cost sensitive and are not high for transmission rates, such as replacing some of the original RS485 based applications. <br>
