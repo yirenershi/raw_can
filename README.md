@@ -8,7 +8,7 @@ It can be used to understand the principle of the CAN bus. <br>
 It can be used in some applications that are cost sensitive and are not high for transmission rates, such as replacing some of the original RS485 based applications. <br>
 It can be used as data transmission between multiple CPU on board, using open - out output, and not suitable for CAN transceiver. <br>
 A custom protocol based on CAN protocol can be used to communicate, increasing the complexity of the system and improving the difficulty of solving the problem. <br>
-====
+-----
 # 软件CAN控制器
 这是一个软件实现的CAN控制器。<br>
 当前是运行在飞思卡尔K60处理器上，时钟96MHz。<br>
